@@ -44,7 +44,7 @@ class RecipeListContainer extends React.Component {
 		return (
 			<RecipeList activeRecipes={ this.state.activeRecipes } />
 		);
-	}
+	};
 }
 
 export default RecipeListContainer;
