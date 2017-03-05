@@ -1,0 +1,5 @@
+.box, .fullsize-recipe-container > li, .recipe {
+  background-color: white;
+  border: 1px solid #d5d5d5;
+  box-shadow: 2px 2px 2px #946840;
+}

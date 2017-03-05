@@ -1,0 +1,35 @@
+.link {
+	display: inline-block;
+	color: #eee;
+	cursor: pointer;
+	font-size: 0.5em;
+	padding: 1% 1.5%;
+	letter-spacing: 0.1em;
+}
+
+.link:hover {
+	text-decoration: underline;
+}
+
+.btn, .btn-link {
+  background-color: #708b16;
+  border: 0px solid white;
+  border-radius: 0.5em;
+  color: #f2e9e1;
+  cursor: pointer;
+  font-size: 0.6em;
+  letter-spacing: 0.1em;
+  padding: 1% 1.5%;
+  z-index: 1000;
+}
+.btn:hover, .btn-link:hover {
+  background-color: #658205;
+}
+.btn.close, .close.btn-link {
+  background-color: transparent;
+  color: #93b71c;
+  font-size: 1.1em;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+}

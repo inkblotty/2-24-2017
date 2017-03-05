@@ -22,6 +22,7 @@ const TopNav = (props) => {
 					</span>
 				</div>
 				<div className='btn-container'>
+					<h6>filter by:</h6>
 					<Link className='btn-link' to='all'>
 						all
 					</Link>

@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Router, Route, IndexRedirect, browserHistory } from 'react-router';
 
-import RecipeListContainer from './pages/RecipeListContainer';
-import TopNavContainer from './pages/TopNavContainer';
+import RecipeListContainer from './components/RecipeListContainer';
+import TopNavContainer from './components/TopNavContainer';
 
 class AppRouter extends Component {
     render() {
